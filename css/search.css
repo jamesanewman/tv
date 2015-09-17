@@ -1,0 +1,36 @@
+.results {
+    width:90%;
+    display:table;
+    border-collapse:separate; 
+    border-spacing: 0 1em;
+
+}
+
+.results article {
+    margin-top: 1em;
+    display: table-row;
+}
+
+.results article .image {
+    display: table-cell;
+    width: 100px;
+    padding-left: 1em;
+    vertical-align: middle;
+}
+
+.results article .image img {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.results article .description {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+.results .panel {
+    background-color: #7f8c8d;
+}
+

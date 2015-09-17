@@ -1,0 +1,35 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #95a5a6; /* Concrete */
+}
+
+input[type=text] {
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px;
+    width: 50%;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #c0392b;
+    border: 2px solid #c0392b;
+}
+
+.panel {
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
