@@ -1,0 +1,20 @@
+<div ng-controller="FavouritesController" class="search panel">
+
+    <section class="results">
+
+        <article ng-repeat="summary in results" class="group panel">
+
+            <div class="image">
+                <img ng-src="{{summary.poster_path}}" ng-show="summary.poster_path">
+            </div>
+
+            <div class="description">
+                <h1>{{summary.name}}</h1>
+                <p>{{summary.overview}}</p>
+            </div>
+
+        </article>
+
+    </section>
+
+</div>
